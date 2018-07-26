@@ -3,8 +3,8 @@ class Dog
     @name = name
   end
    
-  def name=(dog_name) #writer method
-    @name=dog_name
+  def name=(name) #writer method
+    @name=name
   end
    
   def name #reader method

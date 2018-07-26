@@ -1,5 +1,5 @@
 class Dog
-  def initialize(name) # 
+  def initialize(name) # automatically called every time the class is called
     @name = name
   end
    

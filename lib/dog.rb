@@ -1,5 +1,5 @@
 class Dog
-  def initialize(name, breed= "mutt") # automatically called every time the class is called
+  def initialize(name, breed) # automatically called every time the class is called
     @name = name
     @breed = breed
   end
@@ -13,7 +13,7 @@ class Dog
   end
 
   
-  def breed=(breed = "mutt")
+  def breed=(breed = "Mutt")
     @breed=breed
   end
   

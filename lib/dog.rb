@@ -1,13 +1,13 @@
 class Dog
-  def initialize(name)
+  def initialize(name) # 
     @name = name
   end
    
-  def name=(dog_name)
+  def name=(dog_name) #writer method
     @name=dog_name
   end
    
-  def name
+  def name #reader method
     @name
   end
 end

@@ -10,6 +10,18 @@ class Dog
   def name #reader method
     @name
   end
+  
+  def initialize(breed="mutt")
+    @breed=breed
+  end
+  
+  def breed=(breed)
+    @breed=breed
+  end
+  
+  def breed
+    @breed
+  end
 end
  
  

@@ -1,6 +1,7 @@
 class Dog
-  def initialize # automatically called every time the class is called
+  def initialize(name, breed = "mutt") # automatically called every time the class is called
     @name = name
+    @breed = breed
   end
    
   def name=(name) #writer method
@@ -10,10 +11,7 @@ class Dog
   def name #reader method
     @name
   end
-  
-  def initialize(breed = "mutt")
-    @breed=breed
-  end
+
   
   def breed=(breed)
     @breed=breed
